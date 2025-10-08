@@ -1,9 +1,7 @@
 //Creado con Ardora - www.webardora.net
 //bajo licencia Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0)
 //para otros usos contacte con el autor
-var isPlayEnu=false;
 function initAct(){
-  document.getElementById("audioEnu").addEventListener("ended", function(){document.getElementById("audioEnu").currentTime=0;isPlayEnu=false;});
 calcMaxWidth();paintQuest();paintbGame();
 if (tiAval){parent.iniciaActividade()}if ((tiTime) && (tiButtonTime)){paintButtonTime();}
 $(".bGame").css({background: colorButton,color: colorBack,borderColor: colorBack});

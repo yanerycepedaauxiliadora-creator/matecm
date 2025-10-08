@@ -1,6 +1,6 @@
-var timeAct=90; timeIni=90; timeBon=5;
-var successes=0; successesMax=5; attempts=0; attemptsMax=5;
-var score=0; scoreMax=5; scoreInc=1; scoreDec=0
+var timeAct=60; timeIni=60; timeBon=0;
+var successes=0; successesMax=2; attempts=0; attemptsMax=2;
+var score=0; scoreMax=2; scoreInc=1; scoreDec=0
 var typeGame=0;
 var tiTime=false;
 var tiTimeType=0;
@@ -16,14 +16,14 @@ var scoOk=0; scoWrong=0; scoOkDo=0; scoWrongDo=0; scoMessage=""; scoPtos=10;
 var fMenssage="Verdana, Geneva, sans-serif";
 var fActi="Verdana, Geneva, sans-serif";
 var fEnun="Verdana, Geneva, sans-serif";
-var timeOnMessage=5; messageOk="Lo lograste!"; messageTime=""; messageError="Fallaste"; messageErrorG="Fallaste"; messageAttempts=""; isShowMessage=false;
+var timeOnMessage=5; messageOk="Lo lograste!"; messageTime=""; messageError="Fallaste!"; messageErrorG="Fallaste!"; messageAttempts=""; isShowMessage=false;
 var urlOk=""; urlTime=""; urlError=""; urlAttempts="";
 var goURLOk="_blank"; goURLTime="_blank"; goURLAttempts="_blank"; goURLError="_blank"; 
 borderOk="#008000"; borderTime="#FF0000";borderError="#FF0000"; borderAttempts="#FF0000";
 var wordsGame="SW5kZXg="; wordsStr = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=";
 function giveZindex(typeElement){var valueZindex=0; capas=document.getElementsByTagName(typeElement);
 for (i=0;i<capas.length;i++){if (parseInt($(capas[i]).css("z-index"),10)>valueZindex){valueZindex=parseInt($(capas[i]).css("z-index"),10);}}return valueZindex;}
-var words=["TG9zIG7Dum1lcm9zIG5hdHVyYWxlcyBzb24gbG9zIHF1ZSB1dGlsaXphbW9zIHBhcmEgY29udGFy","U2VjdWVuY2lhIGRlIG7Dum1lcm9zIG5hdHVyYWxlcyBlcyB1bmEgbGlzdGEgb3JkZW5hZGEgZGUgbsO6bWVyb3MgcXVlIHNpZ3VlbiB1biBwYXRyw7Nu","RWwgbsO6bWVybyBhbnRlcmlvciBlcyBlbCBxdWUgcHJlY2VkZSBvIGVzdMOhIGFudGVzIGRlIHVuIG7Dum1lcm8gY3VhbHF1aWVyYQ==","RWwgIG7Dum1lcm8gcG9zdGVyaW9yIGVzIGVsIHF1ZSBsZSBzaWd1ZQ==","RWwgY29uanVudG8gZGUgbG9zIG7Dum1lcm9zIG5hdHVyYWxlcyBlcyBpbmZpbml0bw=="];imaW=["naturales_n.jpg","maxresdefault.jpg","images_nu.jpg","images.jpg","images.jpg"];queW=["","","","",""];altW=["","","","",""];c=[56,84,73,39,48];
+var words=["TG9zIG51bWVyb3MgbmF0dXJhbGVzIHNvbiBpbmZpbml0b3M=","TG9zIG51bWVyb3MgbmF0dXJhbGVzIHNvbiBsb3MgcXVlIHV0aWxpemFtb3MgcGFyYSBjb250YXI=","","",""];imaW=["69.jpg","naturales_n.jpg","","",""];queW=["","","","",""];altW=["","","","",""];c=[35,56,0,0,0];
 var infoW=["","","","",""];
 var auW=["","","","",""];
 var actMaxWidth="600"; actMaxHeight="300";indexG=0;profG=0;dirMedia="Index_resources/media/"; textBNext="";

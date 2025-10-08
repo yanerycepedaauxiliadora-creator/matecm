@@ -52,7 +52,6 @@ body{background-color:black;}
 #ardoraEnu{ font-size: 12px; position: relative; padding: 5px; margin-bottom: 10px;
 text-align: center;
 border-bottom:thin;border-bottom-style:solid;
-cursor:pointer;
 }
 #ardoraAlumSCORM{visibility: hidden;padding:0px;margin:0px;position: absolute;height: 15px;width: 250px;bottom: 0px;right: 0px;cursor: pointer;border-style: dotted;
 border-width: 1px;-webkit-border-radius: 4px;-khtml-border-radius: 4px;border-radius: 4px;
